@@ -1,12 +1,22 @@
-# groupmessage
+# GroupMessage
 iOS project to do send messages to a small group selected from contacts
 
-The intent of this project is for kids to get started on Xcode development. 
+The intent of this project is for kids to get started on Apps development in Xcode environment. 
+##Getting Started
+1. Beginners, get familiarized with Swift and fundamentals of App development.  https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ will provide a very good turorial. 
+2. Get to know about predicate programming guide - https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Predicates/AdditionalChapters/Introduction.html
+3. Familiarize with https://developer.apple.com/library/prerelease/mac/documentation/Contacts/Reference/CNContact_Class/index.html
 
-The following videos and tutorials will help in providing a good foundation to start with
+## Instructions
+1. Validate if you have the Xcode setup.  Atleast Xcode 7.2 . The sample code for this project was written using Xcode version 7.2.1. 
+2. Need less to say a Mac that runs Xcode 7.2 (Yosemite or El Capitan)
+3. Download the code to your laptop, by opening up Terminal app - git clone  https://github.com/psenthil/groupmessage.git
+4. Locate GroupMessage.xcodeproj from the folder where you had cloned the repository. 
+5. Double click on the GroupMessage.xcodeproj file and it should open up the project
+6. Once opened, make sure to select a simulator device and click on Play button. It should start the app after installing in the simulator. First run might take a bit longer and the subsequent runs will be faster
 
-- https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/
-- http://www.appcoda.com/ios-contacts-framework/
-- https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Predicates/Articles/pSyntax.html
-- https://developer.apple.com/library/prerelease/mac/documentation/Contacts/Reference/CNContact_Class/index.html
+
+##Additional Resources
+1. Swift - https://developer.apple.com/swift/resources/
+2.http://www.appcoda.com/ios-contacts-framework/
 
