@@ -14,9 +14,10 @@ The intent of this project is for kids to get started on Apps development in Xco
 4. Locate GroupMessage.xcodeproj from the folder where the repository was cloned. 
 5. Double click on the GroupMessage.xcodeproj file and it should open up the project
 6. Once opened, make sure to select a simulator device and click on Play button. It should start the app after installing in the simulator. First run might take a bit longer and the subsequent runs will be faster
-
+[xcode screenshot](https://github.com/psenthil/groupmessage/blob/master/xcode_project_view.png)
 
 ##Additional Resources
 1. Swift - https://developer.apple.com/swift/resources/
-2.http://www.appcoda.com/ios-contacts-framework/
+
+2. http://www.appcoda.com/ios-contacts-framework/
 
