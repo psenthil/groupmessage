@@ -18,6 +18,7 @@ The intent of this project is for kids to get started on Apps development in Xco
 8. Going back to Xcode and clicking on the ViewController.swift will provide the glimpse of the program
 9. Also Main.storyboard will show how the UI is laid out
 10. Have fun and enjoy making changes and playing with it. 
+11. Important Note: iOS simulators cannot send messages. Therefore connect to the real device and install to try out sending the messages
 
 ##Additional Resources
 1. Swift - https://developer.apple.com/swift/resources/
