@@ -9,9 +9,9 @@ The intent of this project is for kids to get started on Apps development in Xco
 
 ## Instructions
 1. Validate if you have the Xcode setup.  Atleast Xcode 7.2 . The sample code for this project was written using Xcode version 7.2.1. 
-2. Need less to say a Mac that runs Xcode 7.2 (Yosemite or El Capitan)
-3. Download the code to your laptop, by opening up Terminal app - git clone  https://github.com/psenthil/groupmessage.git
-4. Locate GroupMessage.xcodeproj from the folder where you had cloned the repository. 
+2. Needless to say a Mac that runs Xcode 7.2 (Yosemite or El Capitan) is needed
+3. Download the code by opening up Terminal app and use git clone  https://github.com/psenthil/groupmessage.git to download in your favorite folder
+4. Locate GroupMessage.xcodeproj from the folder where the repository was cloned. 
 5. Double click on the GroupMessage.xcodeproj file and it should open up the project
 6. Once opened, make sure to select a simulator device and click on Play button. It should start the app after installing in the simulator. First run might take a bit longer and the subsequent runs will be faster
 
