@@ -8,10 +8,10 @@ The intent of this project is for kids to get started on Apps development in Xco
 3. Familiarize with https://developer.apple.com/library/prerelease/mac/documentation/Contacts/Reference/CNContact_Class/index.html
 
 ## Instructions
-1. Validate if you have the Xcode setup.  Atleast Xcode 7.2 . The sample code for this project was written using Xcode version 7.2.1. 
-2. Needless to say a Mac that runs Xcode 7.2 (Yosemite or El Capitan) is needed
-3. Download the code by opening up Terminal app and use git clone  https://github.com/psenthil/groupmessage.git to download in your favorite folder
-4. Locate GroupMessage.xcodeproj from the folder where the repository was cloned. 
+1. Mac with Yosemite or El Captan is needed
+2. Validate if you have the Xcode setup.  Atleast Xcode 7.2 . The sample code for this project was written using Xcode version 7.2.1.  If Xcode is not installed, download and install it from Mac app store https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12 
+3. Dowload it from https://github.com/psenthil/groupmessage/archive/master.zip . Alternatively you can download the code by opening up Terminal app and use git clone  https://github.com/psenthil/groupmessage.git to download in your favorite folder. Alerternatively y`
+4. Locate GroupMessage.xcodeproj from the folder from the downloaded location.
 5. Double click on the GroupMessage.xcodeproj file and it should open up the project
 6. Once opened, make sure to select a simulator device and click on Play button  as show in the [screenshot] (https://github.com/psenthil/groupmessage/blob/master/xcode_project_view.png)
 7. It should start the app after installing in the simulator. First run might take a bit longer and the subsequent runs will be faster. It should show the [first screen](https://github.com/psenthil/groupmessage/blob/master/screen1.png)
