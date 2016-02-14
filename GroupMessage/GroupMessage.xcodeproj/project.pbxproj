@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		625075821C703D0E00947B1C /* messages_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 625075811C703D0E00947B1C /* messages_app.png */; };
 		62AEC5751C697E22006FD99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEC5741C697E22006FD99E /* AppDelegate.swift */; };
 		62AEC5771C697E22006FD99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEC5761C697E22006FD99E /* ViewController.swift */; };
 		62AEC57A1C697E22006FD99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62AEC5781C697E22006FD99E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		625075811C703D0E00947B1C /* messages_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messages_app.png; sourceTree = "<group>"; };
 		62AEC5711C697E22006FD99E /* GroupMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AEC5741C697E22006FD99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62AEC5761C697E22006FD99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				62AEC5741C697E22006FD99E /* AppDelegate.swift */,
 				62AEC5761C697E22006FD99E /* ViewController.swift */,
 				62AEC5781C697E22006FD99E /* Main.storyboard */,
+				625075811C703D0E00947B1C /* messages_app.png */,
 				62AEC57B1C697E22006FD99E /* Assets.xcassets */,
 				62AEC57D1C697E22006FD99E /* LaunchScreen.storyboard */,
 				62AEC5801C697E22006FD99E /* Info.plist */,
@@ -193,7 +196,7 @@
 				TargetAttributes = {
 					62AEC5701C697E22006FD99E = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = KVLB523VQ3;
+						DevelopmentTeam = J76UZS9L79;
 					};
 					62AEC5841C697E22006FD99E = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -233,6 +236,7 @@
 				62AEC57F1C697E22006FD99E /* LaunchScreen.storyboard in Resources */,
 				62AEC57C1C697E22006FD99E /* Assets.xcassets in Resources */,
 				62AEC57A1C697E22006FD99E /* Main.storyboard in Resources */,
+				625075821C703D0E00947B1C /* messages_app.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +379,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -403,8 +408,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GroupMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GroupMessage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anusen.gm.groupmessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -414,11 +420,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = GroupMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.GroupMessage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anusen.gm.groupmessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -491,6 +498,7 @@
 				62AEC59B1C697E22006FD99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62AEC59C1C697E22006FD99E /* Build configuration list for PBXNativeTarget "GroupMessageTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +507,7 @@
 				62AEC59E1C697E22006FD99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62AEC59F1C697E22006FD99E /* Build configuration list for PBXNativeTarget "GroupMessageUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +516,7 @@
 				62AEC5A11C697E22006FD99E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
