@@ -74,10 +74,10 @@ class ViewController: UIViewController,UIPickerViewDelegate, CNContactPickerDele
             print("Message was sent")
             self.dismissViewControllerAnimated(true, completion: nil)
             
-            let alertController = UIAlertController(title: "Success", message: "Message Successfully sent!", preferredStyle: UIAlertControllerStyle.ActionSheet)
+            let alertController = UIAlertController(title: "Success", message: "Message Successfully sent!", preferredStyle: UIAlertControllerStyle.Alert)
             // add an action (button)
             alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-
+            
             self.presentViewController(alertController, animated: true, completion: nil)
             
         default:
