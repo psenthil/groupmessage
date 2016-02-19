@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,33 +17,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEc-bq-coT">
-                                <rect key="frame" x="121" y="275" width="98" height="30"/>
-                                <state key="normal" title="Select Friends"/>
-                                <connections>
-                                    <action selector="selectFriends:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kYl-BA-NiH"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Message:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kM-Uz-rqe">
-                                <rect key="frame" x="42" y="36" width="119" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Message:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kM-Uz-rqe">
+                                <rect key="frame" x="30" y="31.5" width="118.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qIW-h0-52j">
-                                <rect key="frame" x="27" y="60" width="261" height="195"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qIW-h0-52j">
+                                <rect key="frame" x="30" y="60" width="530" height="200"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="TSn-qH-vdW">
-                                        <rect key="frame" x="8" y="8" width="246" height="180"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="TSn-qH-vdW">
+                                        <rect key="frame" x="2" y="2" width="526" height="196"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="196" id="pyR-eK-HHh"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.21191218672315032" green="0.35414459625724209" blue="0.56679482984293195" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="TSn-qH-vdW" secondAttribute="trailing" constant="2" id="Mhh-da-xYI"/>
+                                    <constraint firstAttribute="height" constant="200" id="MzZ-kS-7ub"/>
+                                    <constraint firstItem="TSn-qH-vdW" firstAttribute="leading" secondItem="qIW-h0-52j" secondAttribute="leading" constant="2" id="bbn-ed-HeG"/>
+                                    <constraint firstItem="TSn-qH-vdW" firstAttribute="top" secondItem="qIW-h0-52j" secondAttribute="top" constant="2" id="vRk-j8-8Qh"/>
+                                </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEc-bq-coT">
+                                <rect key="frame" x="225" y="280" width="140" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Select Friends"/>
+                                <connections>
+                                    <action selector="selectFriends:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kYl-BA-NiH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1633670857" green="0.89027647789999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qIW-h0-52j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="CXw-zB-UpT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qIW-h0-52j" secondAttribute="trailing" constant="20" id="K5U-Is-PhL"/>
+                            <constraint firstItem="qIW-h0-52j" firstAttribute="top" secondItem="6kM-Uz-rqe" secondAttribute="bottom" constant="8" symbolic="YES" id="R1m-EW-Ulh"/>
+                            <constraint firstItem="GEc-bq-coT" firstAttribute="top" secondItem="qIW-h0-52j" secondAttribute="bottom" constant="20" id="VvO-88-L0W"/>
+                            <constraint firstItem="qIW-h0-52j" firstAttribute="centerX" secondItem="GEc-bq-coT" secondAttribute="centerX" id="eK6-tN-NA0"/>
+                            <constraint firstItem="qIW-h0-52j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="60" id="fnD-r3-liv"/>
+                            <constraint firstItem="qIW-h0-52j" firstAttribute="leading" secondItem="6kM-Uz-rqe" secondAttribute="leading" id="skL-a4-xC9"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="messageText" destination="TSn-qH-vdW" id="kgY-zl-r0D"/>
@@ -51,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="387"/>
+            <point key="canvasLocation" x="320" y="405"/>
         </scene>
     </scenes>
 </document>
