@@ -16,9 +16,10 @@ The intent of this project is for kids to get started on Apps development in Xco
 6. Once opened, make sure to select a simulator device and click on Play button  as shown ![screenshot](https://github.com/psenthil/groupmessage/blob/master/xcode_project_view.png)
 7. It should start the app after installing in the simulator. First run might take a bit longer and the subsequent runs will be faster. It should show following screen
  ![first screen](https://github.com/psenthil/groupmessage/blob/master/screen1.png)
-8. Type in the message you wanted to send to your groupd of friends in the message box and clicking  on "Select Friends" button will show the following screen ![Second screen](https://github.com/psenthil/groupmessage/blob/master/selection.png)
-9. Select few friends to send the message. Clicking on "Done" button will open up the message view with your selected friends and message populated as below ![Message screen](https://github.com/psenthil/groupmessage/blob/master/message.png)
-10. Important Note: iOS simulators cannot send messages. Therefore connect to the real device and install to try out sending the messages. You will see the following screen shot 
+8. Type in the message you wanted to send to your group of friends in the message box and clicking  on "Select Friends" button will show the following screen ![Second screen](https://github.com/psenthil/groupmessage/blob/master/selection.png)
+9. Important Note: iOS simulators cannot send messages. You will see the following screen ![Simulator screen](https://github.com/psenthil/groupmessage/blob/master/error.png) 
+10. Connect a  the real device and select the device to install app. Once installed follow above steps 6 to 9
+10. Select few friends to send the message. Clicking on "Done" button will open up the message view with your selected friends and message populated as below ![Message screen](https://github.com/psenthil/groupmessage/blob/master/message.png)
 11. Going back to Xcode and clicking on the ViewController.swift will provide the glimpse of the program ![screenshot](https://github.com/psenthil/groupmessage/blob/master/program.png)
 12. Also Main.storyboard will show how the UI components are laid out
 13. Have fun and enjoy making changes and playing with it. 
