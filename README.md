@@ -1,5 +1,5 @@
 # GroupMessage
-iOS project to do send messages to a small group selected from contacts
+iOS project to do send messages to a small group selected from contacts. This app is smart to filter and show only the contacts with mobile phone numbers.
 
 The intent of this project is for kids to get started on Apps development in Xcode environment. 
 ##Getting Started
