@@ -98,6 +98,7 @@ class ViewController: UIViewController,UIPickerViewDelegate, CNContactPickerDele
     }
 
 
+    //delegate implemenation for CNContactPickerDelegate. This method will be called when contact is selected or Done option is selected
     func contactPicker(picker: CNContactPickerViewController, didSelectContactProperties contactProperties: [CNContactProperty]) {
         picker.dismissViewControllerAnimated(true, completion: nil)
     }

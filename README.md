@@ -8,17 +8,20 @@ The intent of this project is for kids to get started on Apps development in Xco
 3. Familiarize with https://developer.apple.com/library/prerelease/mac/documentation/Contacts/Reference/CNContact_Class/index.html
 
 ## Instructions
-1. Mac with Yosemite or El Capitan is needed
-2. Validate if you have the Xcode setup.  Atleast Xcode 7.2 The sample code for this project was written using Xcode version 7.2.1.  If Xcode is not installed, download and install it from Mac app store https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12 
+1. Mac OS with Yosemite or El Capitan is needed to build and run this application
+2. Validate if you have the Xcode installed. Pressing Command space bar and type  Atleast Xcode 7.2 is needed. The sample code for this project was written using Xcode version 7.2.1.  If Xcode is not installed, download and install it from Mac app store https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12 
 3. Dowload the project from https://github.com/psenthil/groupmessage/archive/master.zip . Alternatively you can download the code by opening up Terminal app and use git clone  https://github.com/psenthil/groupmessage.git to download in your favorite folder. 
 4. Locate GroupMessage.xcodeproj from the folder from the downloaded location.
 5. Double click on the GroupMessage.xcodeproj file and it should open up the project in Xcode
 6. Once opened, make sure to select a simulator device and click on Play button  as shown ![screenshot](https://github.com/psenthil/groupmessage/blob/master/xcode_project_view.png)
-7. It should start the app after installing in the simulator. First run might take a bit longer and the subsequent runs will be faster. It should show the ![first screen](https://github.com/psenthil/groupmessage/blob/master/screen1.png)
-8. Going back to Xcode and clicking on the ViewController.swift will provide the glimpse of the program
-9. Also Main.storyboard will show how the UI components are laid out
-10. Have fun and enjoy making changes and playing with it. 
-11. Important Note: iOS simulators cannot send messages. Therefore connect to the real device and install to try out sending the messages
+7. It should start the app after installing in the simulator. First run might take a bit longer and the subsequent runs will be faster. It should show following screen
+ ![first screen](https://github.com/psenthil/groupmessage/blob/master/screen1.png)
+8. Type in the message you wanted to send to your groupd of friends in the message box and clicking  on "Select Friends" button will show the following screen ![Second screen](https://github.com/psenthil/groupmessage/blob/master/selection.png)
+9. Select few friends to send the message. Clicking on "Done" button will open up the message view with your selected friends and message populated as below ![Message screen](https://github.com/psenthil/groupmessage/blob/master/message.png)
+10. Important Note: iOS simulators cannot send messages. Therefore connect to the real device and install to try out sending the messages. You will see the following screen shot 
+11. Going back to Xcode and clicking on the ViewController.swift will provide the glimpse of the program ![screenshot](https://github.com/psenthil/groupmessage/blob/master/program.png)
+12. Also Main.storyboard will show how the UI components are laid out
+13. Have fun and enjoy making changes and playing with it. 
 
 ##Additional Resources
 1. Swift - https://developer.apple.com/swift/resources/
