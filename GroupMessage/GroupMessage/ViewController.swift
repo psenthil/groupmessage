@@ -47,7 +47,7 @@ class ViewController: UIViewController,UIPickerViewDelegate, CNContactPickerDele
         for contact in contacts {
             print (contact.givenName, contact.familyName)
             for phoneNumber in contact.phoneNumbers {
-                if(phoneNumber.label.containsString("Mobile")) {
+                if(phoneNumber.label.containsString("Mobile") /*|| phoneNumber.label.containsString("iPhone") */) {
                     phoneNumbers.append(phoneNumber.valueForKey("value")?.valueForKey("digits") as! String)
                 }
             }
@@ -55,7 +55,7 @@ class ViewController: UIViewController,UIPickerViewDelegate, CNContactPickerDele
         }
         
         print(phoneNumbers)
-        self.dismissViewControllerAnimated(true, completion: nil) //dimiss the old view
+        self.dismissViewControllerAnimated(true, completion: nil) //dismiss the old view
         sendSMSMessage("")
 
     }
