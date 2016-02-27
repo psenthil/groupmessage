@@ -8,6 +8,7 @@ The intent of this project is for kids to get started on Apps development in Xco
 3.	Familiarize with https://developer.apple.com/library/prerelease/mac/documentation/Contacts/Reference/CNContact_Class/index.html
 
 ## Instructions
+This app is available for free download in Apple App store [http://apple.co/1XRhewb](http://apple.co/1XRhewb)
 Download and follow the [Instructions] (https://github.com/psenthil/groupmessage/blob/master/gettingstarted.docx)
 
 ##Additional Resources
