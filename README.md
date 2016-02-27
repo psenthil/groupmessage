@@ -2,14 +2,14 @@
 iOS project to do send messages to a small group selected from contacts. This app is smart to filter and show only the contacts with mobile phone numbers.
 
 The intent of this project is for kids to get started on Apps development in Xcode environment. 
+This app is available for free download in Apple App store [http://apple.co/1XRhewb](http://apple.co/1XRhewb)
 ##Getting Started
 1.	A good tutorial for Beginners to get familiarized with Swift and fundamentals of App development. https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ 
 2.	Get to know about predicate programming -https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Predicates/AdditionalChapters/Introduction.html
 3.	Familiarize with https://developer.apple.com/library/prerelease/mac/documentation/Contacts/Reference/CNContact_Class/index.html
 
 ## Instructions
-This app is available for free download in Apple App store [http://apple.co/1XRhewb](http://apple.co/1XRhewb)
-Download and follow the [Instructions] (https://github.com/psenthil/groupmessage/blob/master/gettingstarted.docx)
+Download and follow the [Instructions] (https://github.com/psenthil/groupmessage/blob/master/gettingstarted.docx) to build and make changes to this project on your mac.
 
 ##Additional Resources
 1. Swift - https://developer.apple.com/swift/resources/
